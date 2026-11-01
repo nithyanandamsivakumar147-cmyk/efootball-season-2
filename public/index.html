@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081323">
+  <meta name="description" content="Elite Four European eFootball League – Season 02. Fixtures, standings and player statistics.">
+  <title>Elite Four League | Season 02</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=4">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#overview" aria-label="Elite Four home"><span class="brand-mark">EF</span><span><strong>ELITE FOUR</strong><small>EUROPEAN eFOOTBALL LEAGUE</small></span></a>
+    <div class="top-actions"><span class="season-pill">SEASON 02</span><span id="connectionStatus" class="connection"><i></i> Connecting</span></div>
+  </header>
+  <main class="shell">
+    <section class="hero">
+      <div class="hero-copy"><p class="eyebrow">FOUR CLUBS · ONE CHAMPION</p><h1>The race for<br><em>European glory.</em></h1><p class="hero-sub">Season 02 · Home & away · 12 fixtures · 6 matchdays</p><div class="hero-meta"><span>✦ 4 Managers</span><span>✦ 92 Players</span><span>✦ 3–1–0 Points System</span></div></div>
+      <div class="hero-emblem"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="trophy">♛</div><div class="emblem-caption">THE ELITE FOUR<br><b>2026 / 02</b></div></div>
+    </section>
+    <nav class="tabs" aria-label="Tournament sections">
+      <button class="tab active" data-tab="overview">Overview</button>
+      <button class="tab" data-tab="standings">Points Table</button>
+      <button class="tab" data-tab="fixtures">Fixtures & Results</button>
+      <button class="tab" data-tab="squads">Team Squads</button>
+      <button class="tab" data-tab="scorers">Goals & Assists</button>
+      <button class="tab" data-tab="keepers">Golden Glove</button>
+    </nav>
+    <div class="savebar"><div><span class="save-dot"></span><span id="saveMessage">Loading tournament data…</span></div><div class="save-actions"><button id="downloadBackup" class="btn btn-quiet">Download data</button><button id="saveButton" class="btn btn-gold" disabled>Save changes</button></div></div>
+    <div id="notice" class="notice hidden" role="status"></div>
+    <section id="overview" class="view active"></section>
+    <section id="standings" class="view"></section>
+    <section id="fixtures" class="view"></section>
+    <section id="squads" class="view"></section>
+    <section id="scorers" class="view"></section>
+    <section id="keepers" class="view"></section>
+    <footer class="footer"><span>ELITE FOUR · SEASON 02</span><span>Unofficial community tournament</span><span id="lastSaved">Waiting for data…</span></footer>
+  </main>
+  <script type="module" src="app.js?v=4"></script>
+</body>
+</html>
