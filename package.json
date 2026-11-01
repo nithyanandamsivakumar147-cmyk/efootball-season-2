@@ -1,0 +1,10 @@
+{
+  "name": "elite-four-season-02",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Public Elite Four eFootball tournament website with shared Netlify Blobs storage",
+  "dependencies": {
+    "@netlify/blobs": "^10.7.13"
+  }
+}

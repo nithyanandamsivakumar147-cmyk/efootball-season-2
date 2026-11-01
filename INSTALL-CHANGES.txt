@@ -1,0 +1,19 @@
+ELITE FOUR SEASON 02 — PLAYER PORTRAIT UPDATE
+
+This ZIP contains only the changed website files:
+- public/app.js
+- public/styles.css
+- public/player-portraits/ (92 cropped portraits)
+
+HOW TO INSTALL
+1. Extract this ZIP into the ROOT of your existing GitHub project.
+2. Allow it to merge with the existing public folder and replace app.js and styles.css.
+3. Commit and push to the SAME GitHub repository connected to your existing Netlify site.
+4. Wait for Netlify deployment, then hard refresh the website (Ctrl + Shift + R).
+
+Do not delete or replace netlify/, data/, netlify.toml, or other existing project files.
+Existing tournament data is stored in Netlify Blobs; this update does not modify it.
+
+NOTE
+Portraits are cropped from the five portrait-grid images supplied in Efootball(1).zip.
+They are small display portraits, not official eFootball card assets.

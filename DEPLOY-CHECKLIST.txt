@@ -1,0 +1,18 @@
+ELITE FOUR SEASON 02 — QUICK DEPLOY CHECKLIST
+
+[ ] Extract ZIP
+[ ] Create a NEW GitHub repository
+[ ] Upload all extracted folder contents to the repository root
+[ ] Netlify > Add new project > Import from GitHub
+[ ] Build command: blank
+[ ] Publish directory: public
+[ ] Deploy
+[ ] Open /api/tournament and confirm JSON response with data + etag
+[ ] Open homepage and check all six sections
+[ ] Enter a test score, click Save changes, refresh, and confirm it remains
+[ ] Remove the test score if it was only a deployment test
+
+NO SUPABASE VARIABLES NEEDED.
+NO PIN.
+NO LOGIN.
+ANYONE WITH THE PUBLIC LINK CAN EDIT.

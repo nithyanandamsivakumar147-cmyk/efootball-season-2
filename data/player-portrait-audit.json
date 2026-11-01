@@ -1,0 +1,10 @@
+{
+  "total_squad_players": 92,
+  "matched_portraits": 90,
+  "players_without_verified_portrait": [
+    "Marquinhos",
+    "Vitinha"
+  ],
+  "duplicate_source_card": "Luis Diaz appears twice in the supplied ZIP; only one copy is used.",
+  "unused_source_image": "Image 90 is a Barcelona-themed graphic, not a clearly identifiable single-player card, so it was not assigned."
+}
